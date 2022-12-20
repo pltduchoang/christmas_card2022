@@ -1,0 +1,64 @@
+html {
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+body {
+    background-color: black;
+    color: rgb(229, 229, 203, 0.7);
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(26, 18, 11, 0.7);
+}
+
+h1 {
+    font-weight:900;
+    display: inline;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-width: 20px;
+    border-color: rgb(229, 229, 203, 0.7);
+    width: 300px; 
+}
+
+h2 {
+    font-style: italic;
+    
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+
+
+img {
+    width: 600px;
+    height: 800px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+#content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(26, 18, 11, 0.5);
+}
+
+iframe {
+    margin-top:  15px;
+}
