@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: black;
-    color: rgb(229, 229, 203, 0.7);
+    color: rgb(252, 255, 231, 0.8);
     font-size: 2em;
     margin: 0 auto;
     text-align: center;
@@ -19,7 +19,7 @@ h1 {
 hr {
     border-style: dotted none none none;
     border-width: 20px;
-    border-color: rgb(229, 229, 203, 0.7);
+    border-color: rgb(252, 255, 231, 0.8);
     width: 300px; 
 }
 
@@ -46,7 +46,8 @@ img {
     width: 600px;
     height: 800px;
     margin-bottom: 20px;
-    border-radius: 20px;
+    border-radius: 30
+    px;
 }
 
 
@@ -61,4 +62,18 @@ img {
 
 iframe {
     margin-top:  15px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+    
+    iframe {
+        width: 100%;
+    }
 }
