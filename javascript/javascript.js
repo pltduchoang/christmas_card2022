@@ -59,4 +59,4 @@ function playMusic () {
         music.pause();
         pauseButton.innerHTML = "Play Background Music";
     }
-}
+} 
