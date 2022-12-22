@@ -20,12 +20,43 @@
         <h2>From Duc, Quynh & Gump</h2>
         <hr>
         <h1>Merry Christmas</h1>  
-        <img src="image/duc-quynh.jpg" alt="">
+        <div class="slideshow-container">
+
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 2</div>
+              <img src="image/duc-quynh.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 2</div>
+              <img src="image/gump.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+          
+          
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <div class="threedot">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+          </div>
+          <br>
         <h1>and Happy New Year 2024</h1> 
         <hr>
+        
+        <div id="pausebutton">Pause Background Music</div>
+
         <iframe width="600" height="400" src="https://www.youtube.com/embed/lmfqfno6eUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+    <audio id="backgroundmusic" src="image/backgroundmusic.mp3" autoplay loop></audio>
+    <div id="pausebutton">Pause Background Music</div>
     
+    <script src="javascript/javascript.js"></script>
     
 </body>
 </html>
