@@ -12,14 +12,14 @@ skip.addEventListener("click",stopmusic)
 function startmusic () {
   music.play();
   cover.classList.add("hide")
-  musicbutton.innerHTML = "Pause Music"
+  musicbutton.innerHTML = "Pause Background Music"
   content.classList.remove("hide")
 }
 
 function stopmusic () {
   music.pause()
   cover.classList.add("hide")
-  musicbutton.innerHTML = "Play Music"
+  musicbutton.innerHTML = "Play Background Music"
   content.classList.remove("hide")
 }
 
@@ -28,10 +28,10 @@ musicbutton.addEventListener("click",playPauseMusic)
 function playPauseMusic () {
   if (music.paused) {
     music.play();
-    musicbutton.innerHTML = "Pause Music"
+    musicbutton.innerHTML = "Pause Background Music"
   } else {
     music.pause();
-    musicbutton.innerHTML = "Play Music"
+    musicbutton.innerHTML = "Play Background Music"
   }
 }
 
@@ -47,5 +47,5 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
 }

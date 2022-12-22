@@ -33,7 +33,7 @@ body {
   
 }
 
-#start, #skip, #musicbutton {
+#start, #skip ,#musicbutton{
   /* flex: 1; */
   width: 250px;
   height: 50px;
@@ -41,9 +41,11 @@ body {
 }
 
 #musicbutton {
+  width: 300px;
   display: block;
   margin: 0 auto;
-  background-color: rgba(176, 182, 99, 0.8);
+  background-color: rgba(176, 182, 99, 0.5);
+  margin-bottom: 20px;
 }
 
 #start:hover , #skip:hover ,#musicbutton:hover {
