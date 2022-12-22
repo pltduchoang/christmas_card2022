@@ -68,7 +68,7 @@ iframe {
         width: 100%;
     }
 
-    img {
+    .slideshow-container {
         width: 90%;
         height: auto;
     }
