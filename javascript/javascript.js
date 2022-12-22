@@ -45,10 +45,11 @@ function showSlides() {
 var pauseButton = document.getElementById("pausebutton")
 var music = document.getElementById("backgroundmusic")
 pauseButton.addEventListener("click",playMusic)
+// music.addEventListener("load", autoplay)
 
-function autoplay() {
-  music.play()
-}
+// function autoplay() {
+//   music.play()
+// }
 
 function playMusic () {
     if (music.paused) {
